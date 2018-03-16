@@ -1,11 +1,16 @@
-<!DOCTYPE html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
-</head>
+<div class="user-details">
+  <h1> Featured Projects </h1>
+</div>
+<div class="user-projects">
+  <div class="images-right">
+    <img alt="mountains" src="{{ "/assets/img/Destiny-2-1080P-Wallpaper.jpg" | prepend: site.baseurl }}" />
+  </div>
+  <div class="contents">
+    <h3> Destiny II Gaming Analytics </h3>
+    <ul>
+      <li> Featured Skills</li>
+    </ul>
+    <p>Destiny II, a multiplayer first-person shooter, with data provided by the game’s developer Bungie Studio</p>
+    <a class="project-link" href="#project_1">Check it out</a>
+  </div>
+</div>
